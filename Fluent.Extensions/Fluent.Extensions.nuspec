@@ -3,7 +3,7 @@
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
-    <title>Fluent Extensions for .NET</title>
+    <title>Fluent.Extensions</title>
     <authors>Armin Sander</authors>
     <owners>Armin Sander</owners>
     <licenseUrl>https://github.com/pragmatrix/Fluent.Extensions</licenseUrl>
