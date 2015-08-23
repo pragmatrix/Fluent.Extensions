@@ -9,7 +9,7 @@
     <licenseUrl>https://github.com/pragmatrix/Fluent.Extensions</licenseUrl>
     <projectUrl>https://github.com/pragmatrix/Fluent.Extensions</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Fluent.Extensions is a small portable class library that tries to move the focus away from collection types back to the elements stored in them. It does that by introducing a number of extension methods that flip the order of the method parameters.</description>
+    <description>Fluent.Extensions is a portable class library that defines useful extension methods to support method chaining and programming against fluent interfaces.</description>
     <releaseNotes>First preview release that contains shared code from Collections.Fluent and the Do() extension method.</releaseNotes>
     <copyright>Copyright 2015 Armin Sander</copyright>
     <tags>collections fluent method-chaining autofluent</tags>
