@@ -6,3 +6,4 @@ bin/
 obj/
 /packages/
 _NCrunch_*/
+*.nupkg
