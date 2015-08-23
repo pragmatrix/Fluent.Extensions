@@ -1,0 +1,4 @@
+[submodule "Collections.Fluent"]
+	path = Collections.Fluent
+	url = git@github.com:pragmatrix/Collections.Fluent.git
+	branch = master
