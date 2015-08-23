@@ -1,6 +1,6 @@
 # Fluent.Extensions
 
-Fluent.Extensions is a portable class library that supports programming against [fluent interfaces](https://en.wikipedia.org/wiki/Fluent_interface). It's primary purpose is to ease the transition to a more fluent programming style as part of every [AutoFluent](https://github.com/pragmatrix/AutoFluent) package.
+Fluent.Extensions is a portable class library that supports programming against [fluent interfaces](https://en.wikipedia.org/wiki/Fluent_interface). Its primary purpose is to ease the transition to a more fluent programming style as part of every [AutoFluent](https://github.com/pragmatrix/AutoFluent) package.
 
 ## Installation
 
