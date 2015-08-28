@@ -12,7 +12,7 @@ package: conf=Release
 package: build
 	cd ${name} && ${nuget} pack ${name}.csproj -Version ${ver} -Prop Configuration=${conf} 
 .PHONY: distribute-package
-distribute-package:
+distribute-package: package
 	cd ${name} && nuget push ${name}.${ver}.nupkg
 
 .PHONY: build-release
