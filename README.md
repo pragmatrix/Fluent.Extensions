@@ -28,6 +28,14 @@ For example:
 
 Will set x to 13.
 
+### AutoFluent specific extension methods
+
+These are extension methods used by [AutoFluent](https://github.com/pragmatrix/AutoFluent) generated packages.
+
+#### DemoteSender()
+
+The `DemoteSender()` extension method forwards a call to an `Action<>` delegate with the first parameter set to the `object` type to an `Action<>` delegate with the concrete type of a class by casting the first argument. This is used to provide an event's `sender` as a concrete instance type to client code that handles the event. Instead of code generating each forwarding lambda, AutoFluent uses `DemoteSender()` to reduce the code size of the resulting AutoFluent class library.
+
 ## License & Copyright
 
 License: BSD
