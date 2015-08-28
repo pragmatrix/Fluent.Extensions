@@ -38,6 +38,7 @@
     <None Include="Fluent.Extensions.nuspec" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoFluentExtensions.cs" />
     <Compile Include="DoExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
