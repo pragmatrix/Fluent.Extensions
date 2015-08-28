@@ -26,7 +26,17 @@ For example:
 	1.Do(v => x += v)
 	 .Do(v => x += v*2);
 
-Will set x to 13.
+Sets x to 13.
+
+#### Pipe()
+
+The `Pipe(f)` extension calls the function *f* with the current object of the method chain and continues with the function's result.
+
+For example:
+
+	var x = 10.Pipe(a => a * a);
+
+Sets x to 100.
 
 ### AutoFluent specific extension methods
 

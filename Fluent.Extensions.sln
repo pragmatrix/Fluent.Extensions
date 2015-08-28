@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections.Fluent", "Colle
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Collections.Fluent.Shared", "Collections.Fluent\Collections.Fluent.Shared\Collections.Fluent.Shared.shproj", "{77C8119C-600E-4171-A8DA-0C1F2AE99006}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2F9B52DB-7A65-4EC0-952C-F835A6D7E8DF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Collections.Fluent\Collections.Fluent.Shared\Collections.Fluent.Shared.projitems*{77c8119c-600e-4171-a8da-0c1f2ae99006}*SharedItemsImports = 13

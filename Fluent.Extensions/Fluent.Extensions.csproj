@@ -40,6 +40,7 @@
   <ItemGroup>
     <Compile Include="AutoFluentExtensions.cs" />
     <Compile Include="DoExtensions.cs" />
+    <Compile Include="PipeExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="..\Collections.Fluent\Collections.Fluent.Shared\Collections.Fluent.Shared.projitems" Label="Shared" />

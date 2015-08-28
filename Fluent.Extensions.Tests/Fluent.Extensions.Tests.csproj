@@ -47,6 +47,7 @@
     <Compile Include="AutoFluentTests.cs" />
     <Compile Include="CollectionsTests.cs" />
     <Compile Include="DoTests.cs" />
+    <Compile Include="PipeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
