@@ -50,4 +50,4 @@ The `DemoteSender()` extension method forwards a call to an `Action<>` delegate 
 
 License: BSD
 
-Copyright © 2015 Armin Sander
+Copyright © 2016 Armin Sander
