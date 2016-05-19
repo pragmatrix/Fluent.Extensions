@@ -11,8 +11,8 @@ distribute: package distribute-package
 package: conf=Release
 package: build
 	cd ${name} && ${nuget} pack ${name}.csproj -Version ${ver} -Prop Configuration=${conf} 
-.PHONY: distribute-package
-distribute-package: package
+.PHONY: publish-nuget
+publish-nuget: package
 	cd ${name} && nuget push ${name}.${ver}.nupkg
 
 .PHONY: build-release
