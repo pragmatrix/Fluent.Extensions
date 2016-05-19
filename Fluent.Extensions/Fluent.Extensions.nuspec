@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Fluent.Extensions is a portable class library that defines extension methods used to support method chaining and programming against fluent interfaces. The current version contains shared code from the Collections.Fluent project to support generic colections and the Do() extension method that can be used to invoke lambdas from within method chains. Even though technically not required, this library will also be installed as a dependency by all generated AutoFluent packages.</description>
     <releaseNotes>Added the Pipe() extension method.</releaseNotes>
-    <copyright>Copyright 2015 Armin Sander</copyright>
+    <copyright>Copyright 2016 Armin Sander</copyright>
     <tags>collections fluent method-chaining autofluent</tags>
   </metadata>
 </package>
