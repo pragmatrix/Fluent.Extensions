@@ -9,7 +9,7 @@
     <licenseUrl>https://github.com/pragmatrix/Fluent.Extensions</licenseUrl>
     <projectUrl>https://github.com/pragmatrix/Fluent.Extensions</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Fluent.Extensions is a portable class library that defines extension methods used to support method chaining and programming against fluent interfaces. The current version contains shared code from the Collections.Fluent project to support generic colections and the Do() extension method that can be used to invoke lambdas from within method chains. Even though technically not required, this library will also be installed as a dependency by all generated AutoFluent packages.</description>
+    <description>Fluent.Extensions is a netstandard class library that defines extension methods used to support method chaining and programming against fluent interfaces. The current version contains shared code from the Collections.Fluent project to support generic colections and the Do() extension method that can be used to invoke lambdas from within method chains. Even though technically not required, this library will also be installed as a dependency by all generated AutoFluent packages.</description>
     <releaseNotes>This is a now a NetStandard library.</releaseNotes>
     <copyright>Copyright 2018 Armin Sander</copyright>
     <tags>collections fluent method-chaining autofluent</tags>
