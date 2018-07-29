@@ -1,15 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net40;net45;net46</TargetFrameworks>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
-
-  <ItemGroup>
-    <!-- A reference to the entire .NET Framework is automatically included -->
-    <None Include="Fluent.Extensions.nuspec" />
-  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Fluent.Extensions</PackageId>
+    <Title>Fluent.Extensions</Title>
+    <Authors>Armin Sander</Authors>
+    <Description>Fluent.Extensions is a netstandard2, net40, net45, net46 class library that defines extension methods used to support method chaining and programming against fluent interfaces. The current version contains shared code from the Collections.Fluent project to support generic colections and the Do() extension method that can be used to invoke lambdas from within method chains. This library will also be installed as a dependency by all generated AutoFluent packages.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>collections fluent method-chaining autofluent</PackageTags>
+    <PackageLicenseUrl>https://github.com/pragmatrix/Fluent.Extensions</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/pragmatrix/Fluent.Extensions</PackageProjectUrl>
+    <Copyright>Copyright 2018 Armin Sander</Copyright>
+    <PackageReleaseNotes>Multitargeted to netstandard2.0, net40, net45, net46</PackageReleaseNotes>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="AutoFluentExtensions.cs" />
     <Compile Include="DoExtensions.cs" />

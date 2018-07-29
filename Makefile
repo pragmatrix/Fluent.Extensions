@@ -1,19 +1,18 @@
 msbuild=msbuild.exe /m /verbosity:m /nologo
 nuget=nuget.exe
 
-ver=2.0.0
+ver=2.0.1
 name=Fluent.Extensions
-
-.PHONY: publish
-publish: package publish-nuget
 
 .PHONY: package
 package: conf=Release
-package: build
-	cd ${name} && ${nuget} pack ${name}.csproj -Version ${ver} -Prop Configuration=${conf} 
-.PHONY: publish-nuget
-publish-nuget: package
-	cd ${name} && ${nuget} push ${name}.${ver}.nupkg -source https://www.nuget.org/api/v2/package/
+package:
+	cd ${name} && dotnet pack ${name}.csproj -c ${conf} /p:PackageVersion=${ver}
+
+.PHONY: publish
+publish: conf=Release
+publish: package
+	cd ${name}/bin/${conf} && ${nuget} push ${name}.${ver}.nupkg -source https://www.nuget.org/api/v2/package/
 
 .PHONY: build-release
 build-release: conf=Release
