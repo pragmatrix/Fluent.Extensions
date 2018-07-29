@@ -1,7 +1,7 @@
 msbuild=msbuild.exe /m /verbosity:m /nologo
 nuget=nuget.exe
 
-ver=2.0.1
+ver=2.0.2
 name=Fluent.Extensions
 
 .PHONY: package

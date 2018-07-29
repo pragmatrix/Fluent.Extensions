@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net40;net45;net46</TargetFrameworks>
+    <TargetFrameworks>netstandard1.6;netstandard2.0;net40;net45;net46</TargetFrameworks>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
@@ -15,7 +15,7 @@
     <PackageLicenseUrl>https://github.com/pragmatrix/Fluent.Extensions</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/pragmatrix/Fluent.Extensions</PackageProjectUrl>
     <Copyright>Copyright 2018 Armin Sander</Copyright>
-    <PackageReleaseNotes>Multitargeted to netstandard2.0, net40, net45, net46</PackageReleaseNotes>
+    <PackageReleaseNotes>Multitargeted to netstandard1.6, netstandard2.0, net40, net45, net46</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AutoFluentExtensions.cs" />
